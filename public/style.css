@@ -1,0 +1,26 @@
+form#formProduct {
+  max-width: 800px;
+}
+
+div.col {
+  min-width: 120px;
+  width: 33%;
+  float: left;
+}
+
+div.col ul {
+  padding: 0;
+}
+
+div.col ul li {
+  list-style: none;
+  margin: 0;
+}
+
+div.clear {
+  clear: both;
+}
+
+form#formProduct button {
+  margin: 20px 0px;
+}
