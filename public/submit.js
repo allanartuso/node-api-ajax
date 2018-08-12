@@ -3,7 +3,7 @@ var form = document.getElementById("formProduct");
 form.onsubmit = function(e) {
   e.preventDefault();
   var result = document.getElementById("result");
-  var url = "/products";
+  var url = "/router";
 
   var digits = checkBox(form.elements["digits"]);
   var numbers = checkBox(form.elements["numbers"]);
